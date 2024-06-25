@@ -1,0 +1,209 @@
+.cnt1{
+    height: auto;
+    width: auto;
+}
+.img1{
+    width: 100%;
+    height: auto;
+}
+.cnt2{
+    height: auto;
+    width: auto;
+    background-color: #8faead;
+}
+.cnt3{
+    text-align: center;
+    padding: 3%;
+}
+.hdr1{
+    font-family: Arial;
+    font-weight: bolder;
+    color: #55717b;
+    font-size: 7vh;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2vh;
+    background-color: #8faead;
+    width: 100%;
+    height: auto;
+    padding: 3%;
+}
+.cnt4, .cnthdr, .logocnt{
+    width: 100%;
+    height: auto;
+}
+.cnt4{
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.cnthdr{
+    text-align: center;
+}
+.hdr2{
+font-family: Arial;
+color: #55717b;
+font-weight: bolder;
+font-size: 4.5vh;
+}
+.logocnt{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+.logoout{
+    width: 30vh;
+    height: 30vh;
+    background-color: #55717b;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.igram1, .env2{
+    font-size: 25vh;
+    color: #0a4260;
+}
+.tt2, .tw2, .pvl, .loc1{
+    font-size: 23vh;
+    color: #0a4260;
+}
+.logoout:hover{
+    background-color: rgb(181, 203, 207);
+}
+.logoout:active{
+    background-color: #0a4260;
+}
+.igram1:hover, .tt2:hover, .tw2:hover, .env2:hover, .pvl:hover, .loc1:hover{
+    color: #8faead;
+}
+.igram1:active, .tt2:active, .tw2:active, .env2:active, .pvl:active, .loc1:active{
+    color: #55717b;
+}
+@media (max-width:1600px){
+    .logoout{
+        width: 25vh;
+        height: 25vh;
+    }
+    .igram1, .env2{
+        font-size: 22vh;
+    }
+    .tt2, .tw2, .pvl, .loc1{
+        font-size: 20vh;
+    }
+}
+@media (max-width:1300px){
+    .logoout{
+        width: 21vh;
+        height: 21vh;
+    }
+    .igram1, .env2{
+        font-size: 16vh;
+    }
+    .tt2, .tw2, .pvl, .loc1{
+        font-size: 14vh;
+    }
+}
+@media (max-width:900px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .logoout{
+        width: 30vh;
+        height: 30vh;
+    }
+    .igram1, .env2{
+        font-size: 25vh;
+    }
+    .tt2, .tw2, .pvl, .loc1{
+        font-size: 23vh;
+    }
+}
+@media (max-width:800px){
+    .logoout{
+        width: 25vh;
+        height: 25vh;
+    }
+    .igram1, .env2{
+        font-size: 22vh;
+    }
+    .tt2, .tw2, .pvl, .loc1{
+        font-size: 20vh;
+    }
+}
+@media (max-width:700px){
+    .logoout{
+        width: 21vh;
+        height: 21vh;
+    }
+    .igram1, .env2{
+        font-size: 16vh;
+    }
+    .tt2, .tw2, .pvl, .loc1{
+        font-size: 14vh;
+    }
+    .hdr2{
+        font-size: 3.5vh;
+    }
+}
+@media (max-width:600px){
+    .logoout{
+        width: 20vh;
+        height: 20vh;
+    }
+    .igram1, .env2{
+        font-size: 15vh;
+    }
+    .tt2, .tw2, .pvl, .loc1{
+        font-size: 13vh;
+    }
+}
+@media (max-width:500px){
+    .logoout{
+        width: 18vh;
+        height: 18vh;
+    }
+    .igram1, .env2{
+        font-size: 13vh;
+    }
+    .tt2, .tw2, .pvl, .loc1{
+        font-size: 11vh;
+    }
+    .hdr1{
+        font-size: 5vh;
+    }
+}
+@media (max-width:400px){
+    .logoout{
+        width: 16vh;
+        height: 16vh;
+    }
+    .igram1, .env2{
+        font-size: 11vh;
+    }
+    .tt2, .tw2, .pvl, .loc1{
+        font-size: 9vh;
+    }
+    .hdr2{
+        font-size: 2.5vh;
+    }
+}
+@media (max-width:300px){
+    .logoout{
+        width: 13vh;
+        height: 13vh;
+    }
+    .igram1, .env2{
+        font-size: 8vh;
+    }
+    .tt2, .tw2, .pvl, .loc1{
+        font-size: 7vh;
+    }
+    .hdr2{
+        font-size: 2.5vh;
+    }
+    .hdr1{
+        font-size: 4.5vh;
+    }
+}

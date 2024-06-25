@@ -1,0 +1,211 @@
+/*FILLIM FOOTER*/
+footer{
+  width: 100%;
+  height: auto;
+  background-color: #b5cbcf;
+  display: flex;
+}
+.pjesa-majtas{
+  padding-top: 2%; 
+  padding-bottom: 2%;
+  padding-left: 2%;
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.logo-footer{
+  width: 50%;
+}
+.hdr-footer{
+  font-family: Arial;
+  font-weight: bolder;
+  font-size: 4vh;
+  margin-left: 4%;
+  color: #fff;
+}
+.anc{
+  text-decoration: none;
+  color: #fff;
+}
+.anc:hover{
+  color:#8faead;
+}
+.anc:active{
+  color:rgb(85, 113, 123);
+}
+.hdr-footer1{
+  color: #fff;
+  margin-top: 2%;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 2vh;
+}
+.hdr-footer2{
+  font-family: Arial;
+  margin-top: 3%;
+  color: #fff;
+  font-weight: lighter;
+
+}
+.pjesa-qendrore{
+  padding-top: 2%; 
+  padding-bottom: 2%;
+  padding-left: 2%;
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.rreshti1, .rreshti2, .rreshti3{
+  width: 100%;
+  height: 33.33%;
+  display: flex;
+  align-items: center;
+}
+.ikon-footer{
+  width: 6.5vh;
+  height: 6.5vh;
+  background-color: #8faead;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.shkrimIkon{
+  margin-left: 4%;
+  font-family: Arial;
+  font-size: 1.9vh;
+  color: #fff;
+  margin-bottom: 0;
+}
+.phonevl, .env, .loc{
+  font-size: 4vh;
+  color: #55717b;
+}
+.nrIkon{
+  font-size: 2.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pjesa-djathtas{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  padding-right: 2vh;
+  padding-top: 10vh;
+  padding-bottom: 2vh;
+}
+.hdr4Footer{
+  font-family: Arial;
+  color: #fff;
+  font-weight: bold;
+  font-size: 4.5vh;
+  margin-bottom: 2vh;
+}
+.rr2{
+  font-family: Arial;
+  color: #fff;
+  font-size: 2.5vh;
+  margin-bottom: 2vh;
+}
+.cntfooter{
+  width: 6.5vh;
+  height: 6.5vh;
+  background-color: #8faead;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+.igram{
+  font-size: 5vh;
+  color: #55717b;
+}
+.tt1, .tw1, .env1{
+  font-size: 4vh;
+  color: #55717b;
+}
+.rr3{
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width:1050px){
+  footer{
+    flex-direction: column;
+  }
+  .pjesa-majtas{
+    width: 100%;
+    height: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+  }
+  .pjesa-qendrore{
+    width: 100%;
+    height: 30%;
+    padding-left: 30%;
+    padding-right: 10%;
+  }
+  .pjesa-djathtas{
+    width: 100%;
+    height: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .logo-footer{
+    display: block;
+    margin-left: 27%;
+  }
+  .rreshti1, .rreshti2{
+    margin-bottom: 4%;
+  }
+}
+  @media (max-width:800px){
+    .pjesa-qendrore{
+      padding-left: 20%;
+    }
+  }
+  @media (max-width:450px){
+    .ikon-footer{
+      width: 4vh;
+      height: 4vh;
+    }
+    .phonevl, .env, .loc{
+      font-size: 2vh;
+      color: #55717b;
+    }
+    .shkrimIkon {
+      font-size: 1.9vh;
+  }
+  .hdr4Footer {
+    font-size: 3.5vh;
+  }
+  .rr2 {
+    font-size: 2vh;
+ }
+ .cntfooter {
+  width: 5.5vh;
+  height: 5.5vh;
+  margin-right: 3%;
+  margin-left: 3%;
+ }
+ .igram{
+  font-size: 3.8vh;
+}
+.tt1, .tw1, .env1 {
+  font-size: 3vh;
+  color: #55717b;
+}
+.pjesa-djathtas{
+  padding-top: 10%;
+}
+}
+/*FUND FOOTER*/

@@ -1,0 +1,151 @@
+.adresimg{
+    width: 100%;
+    height: auto;
+}
+.cnt1{
+    background-color: #8faead;
+}
+.cnt2{
+    width: 100%;
+    height: auto;
+    background-color: #8faead;
+    padding: 3% 3% 3% 3%;
+    display: flex;
+}
+.cnt3{
+    width: 30%;
+    height: auto;
+    background-color: #55717b;
+    padding: 1%;
+    border: 1vh solid #0a4260;
+    border-radius: 1vh;
+}
+.cnt4{
+    display: flex;
+}
+.mapicon{
+    font-size: 5vh;
+    color: #b5cbcf;
+}
+.hdr1{
+    margin: 0;
+    font-size: 5vh;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-left: 15%;
+    color: #b5cbcf;
+}
+.cnt5{
+    padding: 10%;
+}
+.pershkrim{
+    font-family: Arial;
+    font-size: 3vh;
+    color: #b5cbcf;
+}
+/*fillim map*/
+.mapouter{
+    position:relative;
+    text-align:right;
+    width:60%;
+    height:100%;
+    margin-left: 9%;
+    
+}
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    width:100%;
+    height:100%;
+    
+}
+.gmap_iframe {
+    height:60vh!important;
+    border: 1vh solid #0a4260;
+    border-radius: 1vh;
+}
+/*mbarim map*/
+@media (max-width:1500px){
+    .mapicon{
+        font-size: 4vh;
+        margin-top: 1vh;
+    }
+    .hdr1{
+        font-size: 4vh;
+        margin-top: 0.5vh;
+    }
+    .pershkrim{
+        font-size: 2.5vh;
+    }
+    .cnt3{
+        width: 30%;
+        height: 40%;
+    }
+    .gmap_iframe {
+        height:48vh!important;
+    }
+}
+@media (max-width:1328px){
+    .pershkrim{
+        font-size: 2.2vh;
+    }    
+    .gmap_iframe {
+        height:43vh!important;
+    }
+}
+@media (max-width:1179px){
+    .pershkrim{
+        font-size: 2vh;
+    }    
+    .gmap_iframe {
+        height:40vh!important;
+    }
+}
+@media (max-width:1050px){
+.cnt2{
+    flex-direction: column;
+}
+.mapouter{
+    margin: 0;
+    margin-top: 3%;
+}
+.cnt3{
+    width: 100%;
+    height: 20%;
+}
+.cnt5{
+    padding: 3%;
+}
+.pershkrim{
+    font-size: 2.5vh;
+}
+.cnt4{
+    margin-left: 35%;
+}
+.mapouter{
+    width:100%;
+}
+}
+@media (max-width:800px){
+    .cnt4{
+        margin-left: 33%;
+    }
+}
+@media (max-width:566px){
+    .cnt4{
+        margin-left: 30%;
+    }
+    .pershkrim{
+        font-size: 2.3vh;
+    }
+}
+@media (max-width:466px){
+    .cnt4{
+        margin-left: 22%;
+    }
+}
+@media (max-width:380px){
+    .cnt4{
+        margin-left: 15%;
+    }
+}
